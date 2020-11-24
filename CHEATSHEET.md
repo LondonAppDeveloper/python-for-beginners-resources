@@ -16,3 +16,9 @@ TODO - add modes
 Useful features of the `os` library.
 
 `os.makedirs`
+
+## VSCode
+
+Open command pallet:
+ * Windows - `CTRL` + `SHIFT` + `p`
+ * macOS - `CMD` + `SHIFT` + `p`
