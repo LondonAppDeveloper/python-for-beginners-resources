@@ -1,0 +1,12 @@
+{
+  "age": 56,
+  "fav_nums": [
+    1,
+    6,
+    3,
+    8,
+    4
+  ],
+  "is_active": true,
+  "name": "Mike"
+}

@@ -1,0 +1,7 @@
+Babel==2.8.0
+Delorean==1.0.0
+humanize==3.0.1
+python-dateutil==2.8.1
+pytz==2020.1
+six==1.15.0
+tzlocal==2.1
