@@ -3,6 +3,44 @@
 Notes, tips and commands.
 
 
+## Command Line
+
+Tips for using the Terminal on macOS and Command Prompt on Windows.
+
+### Command Prompt (Windows)
+
+To open the Command Prompt:
+ 
+ 1. Click on **Start**.
+ 2. Type **cmd** in search.
+ 3. Click on the Command Prompt icon (black box).
+ 
+> Tip: Right click and add a shortcut to either the Task Bar, Start Menu or Desktop for easier access in the future.
+
+
+### Terminal (macOS)
+
+To open the Terminal:
+
+ 1. Open the **Finder** application.
+ 2. Select **Applications** on the left.
+ 3. Navigate to **Utilities**.
+ 4. Double click **Terminal** to open it.
+ 
+> Tip: Drag the appliction to your launcher, or press `CMD + SPACR` and type *Terminal* for easier access in the future.
+
+
+### Commands
+
+List of common commands:
+
+ * `cd <path>`: Change directory, for example to change to a directory called `code` you would type `cd code/`.
+ * `cd ..`: Change to the parent directory.
+ * `ls` (macOS) or `dir` (Windows): List all the files and directories are the current location.
+ * `pwd`: Print Working Dir - Output the current path that you are working from.
+ * `python <path>`: Run a Python script, for example, to run a script called `hello.py` you would run `python helloy.py`.
+ * `mkdir <name>`: Created a directory with a given name.
+
 ## File Management
 
 
