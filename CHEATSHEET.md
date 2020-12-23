@@ -1,6 +1,8 @@
 # Cheat Sheet
 
-Notes, tips and commands.
+Notes, tips and commands which are useful to know when learning Python.
+
+> Note: To open links a new tab, use use `CMD + LEFT CLICK` (macOS) or `CTRL + LEFT CLICK` (Windows).
 
 
 ## Command Line
@@ -41,8 +43,28 @@ List of common commands:
  * `python <path>`: Run a Python script, for example, to run a script called `hello.py` you would run `python helloy.py`.
  * `mkdir <name>`: Created a directory with a given name.
 
-## File Management
 
+## VSCode
+
+Open command pallet:
+
+ * Windows - `CTRL` + `SHIFT` + `p`
+ * macOS - `CMD` + `SHIFT` + `p`
+
+
+## Python Debugger
+
+Set breakpoint manually in code, add `breakpoint()` to the line you wish to pause exeuction on.
+
+Once in debugger mode, see the below commands to interact with debugger.
+
+ * `step` - Step Into - Move to the next line of code (inside function if necessary)
+ * `next` - Step Over - Run the next line of code without moving into functions
+ * `continue` - Run all code and step at next breakpoint
+ * `quit` - Stop debugging
+
+
+## File Management
 
 ### Open modes
 
@@ -64,23 +86,9 @@ Modes available for `open()` function:
 
 Useful features of the `os` library.
 
-`os.makedirs`
-
-
-## VSCode
-
-Open command pallet:
- * Windows - `CTRL` + `SHIFT` + `p`
- * macOS - `CMD` + `SHIFT` + `p`
-
-
-## Python Debugger
-
-Set breakpoint manually in code, add `breakpoint()` to the line you wish to pause exeuction on.
-
-Once in debugger mode, see the below commands to interact with debugger.
-
- * `step` - Step Into - Move to the next line of code (inside function if necessary)
- * `next` - Step Over - Run the next line of code without moving into functions
- * `continue` - Run all code and step at next breakpoint
- * `quit` - Stop debugging
+ * `os.makedirs(name, mode=0o777, exist_ok=False)`: Make all directories in the path (provided as name). For example, if you run `os.makedirs('one/two/three/')`, then three directories will be created: `one`, `two` and `three` being being added in the previous parent. Also see [official docs](
+https://docs.python.org/3/library/os.html#os.makedirs).
+ * `os.path.join(path, *paths)`: Join paths together in a platform agnostic manor. This is useful for creating paths our of multiple path segments without hard coding the path style to a particular OS format. For example, if you call `os.path.join('one', 'two', 'three.txt')`, then on Windows the path willbe `one\two\three.txt` and on macOS it will be `one/two/three.txt`. This is useful for creating code that works on all platforms. (Also see [official docs](https://docs.python.org/3/library/os.path.html#os.path.join)).
+ * `os.path.expanduser(path)`: Create a path relative to the users home directory. One Windows, the users home directory us usually `C:\Users\<name>` and on macOS machines the home directory is usually `/Users/<name>/`. This function gives you the ability to generate the correct path regardless of what operating system you run your code on. (See [official docs](https://docs.python.org/3/library/os.path.html#os.path.expanduser)).
+ 
+ 
