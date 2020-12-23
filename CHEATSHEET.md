@@ -124,7 +124,12 @@ The code inside the function will stop executing as soon as the first `return` s
 
 Python supports a number of "operators" for performing different calculations and checks. Some of common ones are described below:
 
-
+ * `==`: Check for equality, in other words, you can use this to check if one value if equal to another. For example, `1 == 1` will be `True` and `1 == 2` will be `False`. It's useful for comparing variables etc...
+ * `!=`: Inverse of `==`, checking that one value does not equal the other. For example `1 != 1` will be `False`, and `1 != 2` will be `True`. 
+ * `>=`: Greater than or equal to
+ * `<=`: Less than or equal to
+ * `<`: Less than
+ * `>`: Greater than
 
 
 ## Python Debugger
