@@ -52,6 +52,81 @@ Open command pallet:
  * macOS - `CMD` + `SHIFT` + `p`
 
 
+## Basic Python Syntax
+
+It's important to remember that Python uses blank spaces (tabs) to distinguish blocks of code.
+
+This is typically done using statemens. Some examples of common statements are described below.
+
+
+### Comments
+
+Comments are used to add notes to code. It's useful for describing a particular piece of logic if it's not clear by reading it.
+
+To define a comment, prefix the line with a `#`. For example:
+
+```python
+# This is a comment
+```
+
+Any lines prefixed with `#` are exclusively for information purposes and will not be executed by the Python interpreter (which runs your code).
+
+**When should you use comments?** 
+
+If you are writing code simply for learning, then go wild and add as many comments as you need. However, if you are creating code used for real applications, it's best to limit the use of comments to times when it is needed to explain something that may not be obvious to other developers at first glance. For example, if you need to write some code to work around an issue which may not be obvious, you can use a comment to explain the reason.
+
+
+### Defining a Function
+
+Functions are used to create blocks of code that can be re-used with different inputs (optional) and product an output (optional).
+
+See an example of a simple function below:
+
+```python
+def my_function():
+    """My function description."""
+    # CODE.
+```
+
+The above code defines a function called `my_function`. After it's defined, you can use it by typing `my_function()`, and the code indenteded under the function will be executed.
+
+Functions may accept inputs in the form of parameters. For example:
+
+```python
+def my_function(param1, param2, param3):
+    """Function which does something with 3 parameters."""
+    # Code
+```
+
+In the above example, you can pass values (arguments) to the function when you call it. These arguments values are then accessible inside the function code. This enables you to re-use the same code with different inputps.
+
+Function may generate a value which is output from the code inside the function using the `return` statement. For example:
+
+```python
+def add_numbers(a, b):
+    """Add a and b and return result."""
+    result = a + b
+    
+    return result
+```
+
+In the above example, you can add two numbers together and get the result by writing the following code:
+
+```python
+total = add_numbers(2, 2)
+```
+
+This will set `total` to `4`.
+
+The code inside the function will stop executing as soon as the first `return` statement is reached.
+
+### Operators
+
+Python supports a number of "operators" for performing different calculations and checks. Some of common ones are described below:
+
+
+
+
 ## Python Debugger
 
 Set breakpoint manually in code, add `breakpoint()` to the line you wish to pause exeuction on.
