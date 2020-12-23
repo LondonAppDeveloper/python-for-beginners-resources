@@ -5,11 +5,22 @@ Notes, tips and commands.
 
 ## File Management
 
+
 ### Open modes
 
 Modes available for `open()` function:
 
-TODO - add modes
+| Character | Meaning                                                                              |
+| --------- | -------                                                                              |
+| `r`       | Open for reading (default).                                                          |
+| `w`       | Open for writing, truncating (clearing) the file first.                              |
+| `x`       | Open for exclusive creation, failing if the file already exists.                     |
+| `a`       | Open for writing, appending to the end of the file if it already exists.             |
+| `b`       | Set mode to binary - used in combination with other modes, eg: `rb` for read binary. |
+| `t`       | Text mode (default) - like `b`, this can be used in combination with other modes.    |
+| `+`       | Open for updating (reading and writing)                                              |
+
+ > Note: Above table is based on the one from the official documentation for [open()](https://docs.python.org/3/library/functions.html#open).
 
 ### Paths
 
