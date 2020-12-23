@@ -1,6 +1,6 @@
-# Python Crash Course - Cheat Sheet
+# Cheat Sheet
 
-Notes, tips and commands for the Python Crash Course.
+Notes, tips and commands.
 
 
 ## File Management
