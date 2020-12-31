@@ -5,7 +5,7 @@ import argparse
 import requests
 
 
-API_KEY = 'aec7c1999dc9c2ae2cef6f72ff6ef282'
+API_KEY = 'CHANGEME'
 API_BASE_URL = 'https://api.openweathermap.org/data/2.5/forecast'
 
 
