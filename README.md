@@ -2,7 +2,7 @@
 
 Resources for: **Python for Beginners: Learn how to code properly in 2021**
 
-Take the course [here](http://londonapp.dev/beginner-python) or on [Udemy](http://londonapp.dev/beginner-python-udemy).
+Take the course [here](http://londonapp.dev/beginner-python).
 
 
 ## Contents
